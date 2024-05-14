@@ -1,2 +1,58 @@
-# AVR_ATtiny45_FM_transmitter
-clone and try to better understanding mixer and RF TX, Attiny45 MCU acts as RF signal generator at FM89.9 or FM90.790.7
+# AVR_ATtiny45_FM_transmitter  
+clone and try to better understanding mixer and RF TX, Attiny45 MCU acts as RF signal generator at FM89.9 or FM90.7   
+### AVR ATtiny45 FM Transitter testing OK  
+recomile done, no lib used, recovered from old archive   
+by xiaoalab   
+...   
+originaator/author, https://spritesmods.com/?art=avrfmtx   
+...   
+### How to   
+build.bat, will build hex code and burn the avr chip   
+programmer : usbtiny or the clone   
+...   
+### Tx freuency (MHz)   
+images, 89.9 / 90.6 / 101.1 etc.,  
+DSP radid and FM radio has different reception frequency, perhaps down-conversion mixer are different   
+...   
+atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf  
+![atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf](atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf)  
+...  
+Attiny45_FM_transmitter_sch.jpg  
+![Attiny45_FM_transmitter_sch.jpg](Attiny45_FM_transmitter_sch.jpg)  
+...  
+Attiny45_FM_transmitter_testing_dsp_receiver_used.mp4  
+![Attiny45_FM_transmitter_testing_dsp_receiver_used.mp4](Attiny45_FM_transmitter_testing_dsp_receiver_used.mp4)  
+...  
+Attiny45_FM_transmitter_testing_FM_radio_used_FM90.6_singing.mp4  
+![Attiny45_FM_transmitter_testing_FM_radio_used_FM90.6_singing.mp4](Attiny45_FM_transmitter_testing_FM_radio_used_FM90.6_singing.mp4)  
+...  
+AVR-based FM-transmitter_Binder1.pdf  
+![AVR-based FM-transmitter_Binder1.pdf](AVR-based FM-transmitter_Binder1.pdf)  
+...  
+build.bat  
+![build.bat](build.bat)  
+...  
+code_compile_done_with_some_warnings.JPG  
+![code_compile_done_with_some_warnings.JPG](code_compile_done_with_some_warnings.JPG)  
+...  
+code_compile_warning.JPG  
+![code_compile_warning.JPG](code_compile_warning.JPG)  
+...  
+fmxmit  
+![fmxmit](fmxmit)  
+...  
+github_build_README.md.bat  
+![github_build_README.md.bat](github_build_README.md.bat)  
+...  
+Makefile  
+![Makefile](Makefile)  
+...  
+modified_code_list.txt  
+![modified_code_list.txt](modified_code_list.txt)  
+...  
+original_source_code_fmxmit.tgz  
+![original_source_code_fmxmit.tgz](original_source_code_fmxmit.tgz)  
+...  
+README.md  
+![README.md](README.md)  
+...  
