@@ -4,7 +4,7 @@ clone and try to better understanding mixer and RF TX, Attiny45 MCU acts as RF s
 recomile done, no lib used, recovered from old archive   
 by xiaoalab   
 ...   
-originaator/author, https://spritesmods.com/?art=avrfmtx   
+originator/author, https://spritesmods.com/?art=avrfmtx   
 ...   
 ### How to   
 build.bat, will build hex code and burn the avr chip   
@@ -14,6 +14,9 @@ programmer : usbtiny or the clone
 images, 89.9 / 90.6 / 101.1 etc.,  
 DSP radid and FM radio has different reception frequency, perhaps down-conversion mixer are different   
 ...   
+### Testing log...   
+https://youtu.be/93qiAH3x788  
+https://youtu.be/KA4K4PUP5sM  
 atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf  
 ![atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf](atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf)  
 ...  
