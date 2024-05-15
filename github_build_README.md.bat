@@ -18,7 +18,7 @@ echo recomile done, no lib used, recovered from old archive   >> %output_file%
 echo by xiaoalab   >> %output_file%
 echo ...   >> %output_file%
 
-echo originaator/author, https://spritesmods.com/?art=avrfmtx   >> %output_file%
+echo originator/author, https://spritesmods.com/?art=avrfmtx   >> %output_file%
 echo ...   >> %output_file%
 
 echo ### How to   >> %output_file%
@@ -31,6 +31,13 @@ echo images, 89.9 / 90.6 / 101.1 etc.,  >> %output_file%
 echo DSP radid and FM radio has different reception frequency, perhaps down-conversion mixer are different   >> %output_file%
 echo ...   >> %output_file%
 
+echo ### Testing log...   >> %output_file%
+echo https://youtu.be/jSzDap-8kvU   >> %output_file%
+echo https://youtu.be/93qiAH3x788  >> %output_file%
+echo https://youtu.be/KA4K4PUP5sM  >> %output_file%
+echo ...   >> %output_file%
+
+echo ### project files or list   >> %output_file%
 
 rem Use 'dir' command to list files and save the output to a temporary file
 dir /b > temp.txt
