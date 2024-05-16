@@ -4,6 +4,17 @@ clone and try to better understanding mixer and RF TX, Attiny45 MCU acts as RF s
 recomile done, no lib used, recovered from old archive   
 by xiaoalab   
 ...   
+### how to adjust speed of your device/melody playing  
+every Attiny45 chip has different OSCCAL, tune yourself for melody plating speed in main.c   
+```   
+//Main loop calls player code at 60Hz    
+	ctr60Hz++;    
+//	if (ctr60Hz { // speed of melody playing, faster    
+	if (ctr60Hz { // speed of melody playing, slower   
+		ctr60Hz=0;   
+		doPlayerTick=1;   
+	}   
+...   
 originator/author, https://spritesmods.com/?art=avrfmtx   
 ...   
 ### How to   
@@ -41,6 +52,9 @@ Attiny45_FM_transmitter_testing_FM_radio_used_FM90.6_singing.mp4
 AVR-based FM-transmitter_Binder1.pdf  
 ![AVR-based FM-transmitter_Binder1.pdf](AVR-based FM-transmitter_Binder1.pdf)  
 ...  
+AVR054 Run-time calibration of the internal RC oscillator.pdf  
+![AVR054 Run-time calibration of the internal RC oscillator.pdf](AVR054 Run-time calibration of the internal RC oscillator.pdf)  
+...  
 build.bat  
 ![build.bat](build.bat)  
 ...  
@@ -70,6 +84,9 @@ nRF9161_PS_v1.0.pdf
 ...  
 original_source_code_fmxmit.tgz  
 ![original_source_code_fmxmit.tgz](original_source_code_fmxmit.tgz)  
+...  
+OSCCAL_7bit_tunning.JPG  
+![OSCCAL_7bit_tunning.JPG](OSCCAL_7bit_tunning.JPG)  
 ...  
 README.md  
 ![README.md](README.md)  
