@@ -18,6 +18,21 @@ echo recomile done, no lib used, recovered from old archive   >> %output_file%
 echo by xiaoalab   >> %output_file%
 echo ...   >> %output_file%
 
+echo ### how to adjust speed of your device/melody playing  >> %output_file%
+echo every Attiny45 chip has different OSCCAL, tune yourself for melody plating speed in main.c   >> %output_file%
+echo ```   >> %output_file%
+echo //Main loop calls player code at 60Hz    >> %output_file%
+echo 	ctr60Hz++;    >> %output_file%
+echo //	if (ctr60Hz>=260) { // speed of melody playing, faster    >> %output_file%
+echo 	if (ctr60Hz>=600) { // speed of melody playing, slower   >> %output_file%
+echo 		ctr60Hz=0;   >> %output_file%
+echo 		doPlayerTick=1;   >> %output_file%
+echo 	}   >> %output_file%
+echo ```   >> %output_file%
+echo ...   >> %output_file%
+
+
+
 echo originator/author, https://spritesmods.com/?art=avrfmtx   >> %output_file%
 echo ...   >> %output_file%
 

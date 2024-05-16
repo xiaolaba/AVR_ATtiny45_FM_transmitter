@@ -14,6 +14,7 @@ every Attiny45 chip has different OSCCAL, tune yourself for melody plating speed
 		ctr60Hz=0;   
 		doPlayerTick=1;   
 	}   
+```   
 ...   
 originator/author, https://spritesmods.com/?art=avrfmtx   
 ...   
