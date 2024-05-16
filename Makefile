@@ -248,10 +248,16 @@ AVRDUDE_PROGRAMMERID=usbtiny
 #LFUSE=0xc1
 
 #### DEFAULT TINY45 FM Transimiter, PLL 24MHZ internal RC OSC
+#EFUSE=0xff
+#HFUSE=0xdf
+#LFUSE=0xe1
+
+
+#### DEFAULT TINY45 FM Transimiter, PLL 24MHZ internal RC OSC
+#### main.c has comment about fuses, should be for lfuse and hfuse
 EFUSE=0xff
 HFUSE=0xdf
-LFUSE=0xe1
-
+LFUSE=0xf1
 
 # xiaolaba, 2024-MAY-14
 ## usbtiny programmer used
