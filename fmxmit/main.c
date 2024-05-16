@@ -42,7 +42,9 @@ ISR(TIM0_COMPA_vect) {
 
 	//Main loop calls player code at 60Hz
 	ctr60Hz++;
-	if (ctr60Hz>=260) {
+//	if (ctr60Hz>=260) {
+	if (ctr60Hz>=600) { // speed of song playing
+
 		ctr60Hz=0;
 		doPlayerTick=1;
 	}
