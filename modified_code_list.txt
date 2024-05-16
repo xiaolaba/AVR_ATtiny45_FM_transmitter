@@ -1,6 +1,8 @@
-Makefile
-fmxmit\overclock.h
+\Makefile
+\fmxmit\overclock.h
+\fmxmit\main.h
 \fmxmit\music\dds.h
 \fmxmit\music\dds.c
 \fmxmit\music\player.h
 \fmxmit\music\player.c
+
